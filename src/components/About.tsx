@@ -11,6 +11,8 @@ const technologies = [
   'Git & GitHub',
 ];
 
+import omerPhoto from '@/assets/omer.jpg';
+
 const About = () => {
   return (
     <section id="about" className="py-24 px-6 md:px-12 lg:px-24">
@@ -61,9 +63,9 @@ const About = () => {
             <div className="relative z-10 rounded overflow-hidden">
               <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-all duration-300 z-10" />
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=faces"
+                src={omerPhoto}
                 alt="Omer Ahmadzai"
-                className="w-full grayscale group-hover:grayscale-0 transition-all duration-300"
+                className="w-full grayscale group-hover:grayscale-0 transition-all duration-300 object-cover"
               />
             </div>
             <div className="absolute top-4 left-4 w-full h-full border-2 border-primary rounded z-0 group-hover:top-3 group-hover:left-3 transition-all duration-300" />
