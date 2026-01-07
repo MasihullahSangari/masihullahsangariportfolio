@@ -3,17 +3,17 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 const socialLinks = [
   {
     name: 'GitHub',
-    url: 'https://github.com/Omersagar',
+    url: 'https://github.com/MasihullahSangari',
     icon: Github,
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/omer-sagar-380656338',
+    url: 'https://www.linkedin.com/in/masihullah-sangari-ab123b386',
     icon: Linkedin,
   },
   {
     name: 'Email',
-    url: 'mailto:omersagar469@gmail.com',
+    url: 'mailto:masihullahsangari0@gmail.com',
     icon: Mail,
   },
 ];
@@ -38,12 +38,12 @@ const Footer = () => {
       </div>
 
       <a
-        href="https://github.com/Omersagar"
+        href="https://github.com/MasihullahSangari"
         target="_blank"
         rel="noopener noreferrer"
         className="font-mono text-xs text-slate hover:text-primary transition-colors"
       >
-        <p>Designed & Built by Omer Ahmadzai</p>
+        <p>Designed & Built by Masihullah Sangari</p>
         <p className="mt-1 text-slate-dark">Kabul, Afghanistan</p>
       </a>
     </footer>
