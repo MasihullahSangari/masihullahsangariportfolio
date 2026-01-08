@@ -14,7 +14,9 @@ const Contact = () => {
           I'll try my best to get back to you!
         </p>
         <a
-          href="mailto:masihullahsangari0@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=masihullahsangari0@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block px-8 py-4 border border-primary text-primary font-mono text-lg rounded hover:bg-green-tint transition-colors"
         >
           Say Hello
