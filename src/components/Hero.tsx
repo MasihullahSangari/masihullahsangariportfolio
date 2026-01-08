@@ -18,13 +18,14 @@ const Hero = () => {
         </p>
         <div className="fade-up fade-up-delay-5">
           <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-7 py-4 border border-primary text-primary font-mono text-sm rounded hover:bg-green-tint transition-colors"
-          >
-            View My Resume
-          </a>
+             href="./resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-7 py-4 border border-primary text-primary font-mono text-sm rounded hover:bg-green-tint transition-colors"
+            >
+              View My Resume
+            </a>
+
         </div>
       </div>
     </section>
