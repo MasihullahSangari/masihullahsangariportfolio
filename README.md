@@ -1,80 +1,77 @@
-# 💼 Masihullah Sangari — Full‑Stack Developer
+# 💼 Masihullah Sangari
 
-![React](https://img.shields.io/badge/React-18-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
-![Vite](https://img.shields.io/badge/Vite-5-purple)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-teal)
-![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success)
+### 🚀 Full-Stack Web Developer
 
-🚀 **Live Portfolio:**
+I build modern, responsive, and high-performance web applications with a strong focus on clean UI, scalability, and user experience.
+
+🔗 **Live Portfolio**
 👉 [https://masihullahsangari.github.io/my-portfolio/](https://masihullahsangari.github.io/my-portfolio/)
 
 ---
 
 ## 👋 About Me
 
-I am a **Full‑Stack Web Developer** focused on building modern, responsive, and scalable web applications using **React, TypeScript, and modern tooling**. I enjoy clean UI, performance optimization, and automation.
+I am a passionate **Full-Stack Web Developer** who enjoys turning ideas into real-world products. I focus on writing clean, maintainable code and creating interfaces that feel smooth and intuitive.
+
+This repository contains the source code for my personal portfolio website.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
-* ⚛️ React
-* 🧠 TypeScript
-* ⚡ Vite
-* 🎨 Tailwind CSS
-* 🔁 React Router
-* 📦 TanStack Query
-* ☁️ GitHub Pages
+* ⚛️ **React**
+* 🧠 **TypeScript**
+* ⚡ **Vite**
+* 🎨 **Tailwind CSS**
+* 🔀 **React Router**
+* 📦 **TanStack Query**
+* ☁️ **GitHub Pages**
 
 ---
 
 ## 📸 Portfolio Preview
 
-### Home Page
+### 🏠 Home Page
 
-![Portfolio Home](./public/portfolio-home.png)
+![Home Page](./public/portfolio-home.png)
 
-### About Page
+### 👤 About Page
 
-![Portfolio About](./public/portfolio-about.png)
+![About Page](./public/portfolio-about.png)
 
 ---
 
-## 📂 Project Setup
+## 🚀 Getting Started
 
-Clone the repository:
+### 📥 Clone the repository
 
 ```bash
 git clone https://github.com/MasihullahSangari/my-portfolio.git
 cd my-portfolio
 ```
 
-Install dependencies:
+### 📦 Install dependencies
 
 ```bash
 npm install
 ```
 
-Run locally:
+### ▶️ Run locally
 
 ```bash
 npm run dev
 ```
 
+The app will run at `http://localhost:5173`.
+
 ---
 
-## 🚀 Deployment (GitHub Pages)
+## 🌐 Deployment
 
-Build the project:
+This project is deployed using **GitHub Pages**.
 
 ```bash
 npm run build
-```
-
-Deploy to GitHub Pages:
-
-```bash
 npm run deploy
 ```
 
@@ -82,9 +79,9 @@ npm run deploy
 
 ## 📬 Contact
 
-* 📧 Email: [masihullahsangari0@gmail.com](mailto:masihullahsangari0@gmail.com)
-* 🌐 Portfolio: [https://masihullahsangari.github.io/my-portfolio/](https://masihullahsangari.github.io/my-portfolio/)
+* 📧 **Email:** [masihullahsangari0@gmail.com](mailto:masihullahsangari0@gmail.com)
+* 🌍 **Portfolio:** [https://masihullahsangari.github.io/my-portfolio/](https://masihullahsangari.github.io/my-portfolio/)
 
 ---
 
-⭐ If you like this project, feel free to **star the repo**!
+⭐ Feel free to explore the project, and thank you for visiting my portfolio!
