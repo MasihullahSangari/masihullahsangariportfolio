@@ -1,5 +1,5 @@
 import { ExternalLink } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import latton1 from '@/assets/latton-1.png';
 import latton2 from '@/assets/latton-2.png';
@@ -21,6 +21,14 @@ const projects = [
 
 const Projects = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+
+  // Auto-scroll carousel every 3 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % projectImages.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section id="projects" className="py-24 px-6 md:px-12 lg:px-24">
