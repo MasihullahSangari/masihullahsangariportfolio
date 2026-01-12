@@ -29,7 +29,7 @@ const TypeWriter = ({ text, className = '', delay = 0, showCursor = true }: Type
       ))}
       {showCursor && (
         <motion.span
-          className="inline-block w-[3px] h-[1em] bg-primary ml-1 align-middle"
+          className="inline-block w-[3px] h-[1em] bg-primary ml-1 align-middle shadow-[0_0_8px_2px_hsl(var(--primary)/0.6),0_0_16px_4px_hsl(var(--primary)/0.3)]"
           initial={{ opacity: 0 }}
           animate={{ opacity: [0, 0, 1, 1] }}
           transition={{
