@@ -53,7 +53,7 @@ const Navigation = () => {
             ))}
           </ol>
           <a
-            href="/resume.pdf"
+            href="/MasihullahSangariResume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 border border-primary text-primary font-mono text-sm rounded hover:bg-green-tint transition-colors"
@@ -92,7 +92,7 @@ const Navigation = () => {
             ))}
           </ol>
           <a
-            href="/resume.pdf"
+            href="/MasihullahSangariResume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 border border-primary text-primary font-mono text-lg rounded hover:bg-green-tint transition-colors"
